@@ -2,14 +2,23 @@
 { width: 40px;
 height: 40px;
 background-image: url("../img/Menu.svg");
-display: inline-block;           }
+background-repeat: no-repeat;
+background-position: center;
+display: inline-block; }         
 
 .cabecalho{
 
 background-color: var(--branco);
 display: flex;
-justify-content: space-around;
-align-items: center;    
+justify-content: space-between;  
 
 }
+
+
+.conteiner { display: flex;
+            align-items: center; }
+
+.conteiner__imagem {padding: 1em;}
+
+
 
